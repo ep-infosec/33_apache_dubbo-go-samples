@@ -1,0 +1,6 @@
+dubbo:
+  consumer:
+    references:
+      GreeterClientImpl:
+        url: tri://localhost:20000
+        protocol: tri
